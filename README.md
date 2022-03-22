@@ -79,10 +79,10 @@ Current browser version is 99.0.4844.82 with binary path C:\Program Files\Google
         market_depth
         order_volume
         trade_history
-
-shib.price() # To see last price, volume, high and low values
-shib.refresh() # To refresh webpage
-shib.trade_history() # Last 10 recent trades
-shib.order_book() # Market Depth and Order Volume information
-shib.close_webdriver() # To free memory
+#### Other methods:
+    shib.price() # To see last price, volume, high and low values
+    shib.refresh() # To refresh webpage
+    shib.trade_history() # Last 10 recent trades
+    shib.order_book() # Market Depth and Order Volume information
+    shib.close_webdriver() # To free memory
 See docstrings for more info.
